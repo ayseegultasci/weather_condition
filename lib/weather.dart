@@ -10,7 +10,7 @@ Future<List<WeatherData>> fetchWeather() async {
     "Izmir",
     "Trabzon",
   ];
-  final apiKey = '0c2379fdc0mshf260bb715e56ee5p1b7d06jsn0df3335e2306';
+  final apiKey = 'kendiAPIanahtarinizigiriniz!';
   final List<WeatherData> weatherDataList = [];
   for (final city in cities) {
     final response = await http.get(
